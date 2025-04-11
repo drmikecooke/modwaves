@@ -1,0 +1,59 @@
+# Wave at depth 0.1963, height 0.0707, k 1, g 1, N 20, steps 20
+
+# Solution by 20-term Fourier series
+
+# Height/Depth: 0.360,  46% of the maximum of H/d = 0.787 for this length:
+# Length/Depth:  32.00
+# Dimensionless Period T*sqrt(g/d):  29.08
+# Current criterion: Euler,  Dimensionless value: 0.000
+
+# Stokes-Ursell number   4.669
+
+# Integral quantities - notation from Fenton (1988)
+# (1) Quantity, (2) symbol, solution non-dimensionalised by (3) g & wavenumber, and (4) g & mean depth
+
+# Water depth                        (d)	  0.1963	  1.0000
+# Wave length                   (lambda)	  6.2832	 32.0000
+# Wave height                        (H)	  0.0707	  0.3600
+# Wave period                      (tau)	 12.8857	 29.0799
+# Wave speed                         (c)	  0.4876	  1.1004
+# Eulerian current                 (u1_)	  0.0000	  0.0000
+# Stokes current                   (u2_)	  0.0037	  0.0083
+# Mean fluid speed in frame of wave (U_)	  0.4876	  1.1004
+# Volume flux due to waves           (q)	  0.0007	  0.0083
+# Bernoulli constant                 (r)	  0.1195	  0.6086
+# Volume flux                        (Q)	  0.0950	  1.0921
+# Bernoulli constant                 (R)	  0.3159	  1.6086
+# Momentum flux                      (S)	  0.0657	  1.7047
+# Impulse                            (I)	  0.0007	  0.0083
+# Kinetic energy                     (T)	  0.0002	  0.0046
+# Potential energy                   (V)	  0.0002	  0.0042
+# Mean square of bed velocity     (ub2_)	  0.0012	  0.0063
+# Radiation stress                 (Sxx)	  0.0005	  0.0120
+# Wave power                         (F)	  0.0002	  0.0094
+
+# Dimensionless coefficients in Fourier series
+# Potential/Streamfn	Surface elevations
+# j, B[j], & E[j], j=1..N
+
+ 1	  3.5134223e-02	  1.6256834e-02
+ 2	  1.4633484e-02	  1.3469300e-02
+ 3	  7.3966146e-03	  1.0172185e-02
+ 4	  3.9227036e-03	  7.2210448e-03
+ 5	  2.1056790e-03	  4.9376987e-03
+ 6	  1.1282549e-03	  3.3078075e-03
+ 7	  5.9845377e-04	  2.1951547e-03
+ 8	  3.1211522e-04	  1.4534786e-03
+ 9	  1.5896727e-04	  9.6464064e-04
+10	  7.8439620e-05	  6.4357964e-04
+11	  3.7088361e-05	  4.3243510e-04
+12	  1.6512285e-05	  2.9300334e-04
+13	  6.6952491e-06	  2.0043683e-04
+14	  2.2783033e-06	  1.3867993e-04
+15	  4.6092864e-07	  9.7376568e-05
+16	 -1.7638636e-07	  6.9849254e-05
+17	 -3.2547162e-07	  5.1805770e-05
+18	 -3.0660453e-07	  4.0524332e-05
+19	 -2.5753339e-07	  3.4350499e-05
+20	 -1.1471101e-07	  3.2399775e-05
+

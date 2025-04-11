@@ -36,7 +36,7 @@ def linear(N,H,d):
     Ub0=1 if d==0 else np.tanh(d)**(1/2)
     Bj0[0]=H/2/Ub0
     Ej0[0]=H/2
-    Q0,R0=Ub0*d,Ub0**2/2+d    
+    Q0,R0=Ub0*d,Ub0**2/2+d
     return pack(Ej0,Bj0,Ub0,Q0,R0) # pack them into vector
 
 def F(A,H,d,g):
@@ -69,9 +69,10 @@ class grids:
         self.CXmj,self.SXmj=np.cos(self.Xmj),np.sin(self.Xmj)
         self.scl=np.cosh(self.j*dscl) # scaling denominator
 
-def wave(N,H,d=0,scaler=0): # d=0 default for deep water, scaler default d+H
+def wave(N,H,d=0,scaler=0,A0=None): # d=0 default for deep water, scaler default d+H
     # I use k,g=1,1 units so wavelength is 2pi
-    A0=linear(N,H,d) # use linear approximation to start root finding
+    if not np.any(A0):
+        A0=linear(N,H,d) # use linear approximation to start root finding
     Xm=np.linspace(0,np.pi,N+1) # N+1 grid for collocation
     j=np.arange(1,N+1) # Fourier index from 1 to N
     g=grids(N,d+H) if scaler==0 else grids(N,scaler)

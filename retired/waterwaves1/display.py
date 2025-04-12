@@ -8,3 +8,4 @@ def eta(X,d,sol,lab):
     if not sol.success:
         print(lab,'fail')
     plt.plot(X,IEj([d,*Ej],X),label=lab)
+

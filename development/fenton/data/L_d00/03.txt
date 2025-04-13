@@ -1,0 +1,47 @@
+# Test deep-water wave - use negative H/L
+
+# Solution by 20-term Fourier series
+
+# Height/Length: 0.030,  21% of the maximum of H/L = 0.141
+# Dimensionless Period T*sqrt(g/L):   2.50
+# Current criterion: Euler,  Dimensionless value: 0.000
+
+
+# Integral quantities - notation from Fenton (1988)
+# (1) Quantity, (2) symbol, solution non-dimensionalised by (3) g & wavenumber
+
+# Wave length                   (lambda)	  6.2832
+# Wave height                        (H)	  0.1885
+# Wave period                      (tau)	  6.2553
+# Wave speed                         (c)	  1.0045
+# Eulerian current                 (u1_)	 -0.0000
+# Stokes current                   (u2_)	  0.0044
+# Mean fluid speed in frame of wave (U_)	  1.0045
+# Volume flux due to waves           (q)	  0.0044
+# Bernoulli constant                 (r)	  0.5045
+
+# Dimensionless coefficients in Fourier series
+# Potential/Streamfn	Surface elevations
+# j, B[j], & E[j], j=1..N
+
+ 1	  9.3817530e-02	  9.3925478e-02
+ 2	  3.9565586e-05	  4.4674233e-03
+ 3	  6.5357563e-07	  3.1973911e-04
+ 4	  1.1194082e-08	  2.7159986e-05
+ 5	  1.8293340e-10	  2.5365416e-06
+ 6	  2.8903040e-12	  2.5161979e-07
+ 7	  4.5481280e-14	  2.6024536e-08
+ 8	  7.2786487e-16	  2.7753990e-09
+ 9	  1.2979173e-17	  3.0300210e-10
+10	  3.7117814e-18	  3.3697982e-11
+11	 -5.9043901e-18	  3.8042685e-12
+12	  4.1100975e-18	  4.3483168e-13
+13	  1.9032855e-18	  5.0222326e-14
+14	 -1.3909359e-18	  5.8543448e-15
+15	  5.6015569e-19	  6.8417494e-16
+16	 -2.5084172e-18	  9.0205621e-17
+17	  5.4743412e-18	  1.8041124e-17
+18	 -3.6941800e-18	  8.3266727e-18
+19	 -3.0585865e-18	  4.1633363e-18
+20	  3.0146593e-18	 -6.9388939e-18
+
